@@ -1,0 +1,7 @@
+#!/usr/bin/env perl
+
+use YAML::Tiny;
+
+my $yaml = YAML::Tiny->read( 'sample.yaml' );
+
+$yaml->write( "out.yaml ");
